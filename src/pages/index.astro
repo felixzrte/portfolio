@@ -1,9 +1,18 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import {Icon} from 'astro-icon'
 ---
 
 <Layout title="felixz - portfolio">
-	<main>
-		<h1 class="font-black text-xl">felixz.dev</h1>
+  <main>
+    <div class="text-center mt-24 p-10">
+      <h2 class="font-fira text-white text-5xl pb-2">Felix Zarate</h2>
+      <h3 class="font-fira text-white text-xl py-2">Software Engineer</h3>
+      <p class="font-fira text-gray-400 py-5 leading-8 max-w-lg mx-auto">Software engineer with hands-on-experience creating web and mobile applications. Ability to adapt in self-starting and collaborative environments with the focus of delivering high quality results. Ability to learn from others and engage in meaningful dialogue. </p>
+    </div>
+    <div class="flex justify-center gap-8 text-gray-200">
+      <a href="https://www.linkedin.com/in/felixzarate/" target="_blank"><Icon class="w-10 cursor-pointer" name="ion:logo-linkedin"/></a>
+      <a href="https://github.com/felixzrte" target="_blank"><Icon class="w-10 cursor-pointer" name="ion:logo-github"/>
+    </div>
   </main>
-</Layout>
+</Layout> 

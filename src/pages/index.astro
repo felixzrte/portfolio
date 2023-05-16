@@ -5,14 +5,58 @@ import {Icon} from 'astro-icon'
 
 <Layout title="felixz - portfolio">
   <main>
-    <div class="text-center mt-24 p-10">
-      <h2 class="font-fira text-white text-5xl pb-2">Felix Zarate</h2>
-      <h3 class="font-fira text-white text-xl py-2">Software Engineer</h3>
-      <p class="font-fira text-gray-400 py-5 leading-8 max-w-lg mx-auto">Software engineer with hands-on-experience creating web and mobile applications. Ability to adapt in self-starting and collaborative environments with the focus of delivering high quality results. Ability to learn from others and engage in meaningful dialogue. </p>
-    </div>
-    <div class="flex justify-center gap-8 text-gray-200">
-      <a href="https://www.linkedin.com/in/felixzarate/" target="_blank"><Icon class="w-10 cursor-pointer" name="ion:logo-linkedin"/></a>
-      <a href="https://github.com/felixzrte" target="_blank"><Icon class="w-10 cursor-pointer" name="ion:logo-github"/>
-    </div>
+    <section>
+      <div class="text-center md:mt-18 lg:mt-18 p-10">
+        <p class="font-fira font-light text-sm md:text-base text-lightGreen pb-4">Hi, my name is</p>
+        <h2 class="font-fira font-medium text-white text-4xl lg:text-6xl pb-2">Felix Zarate</h2>
+        <h3 class="font-fira font-light text-gray-300 text-md md:text-xl py-2">Software Engineer</h3>
+        <p class="font-fira text-sm md:text-base lg:text-lg text-gray-400 py-5 leading-8 max-w-lg mx-auto">Software engineer with hands-on-experience creating web and mobile applications. Ability to adapt in self-starting and collaborative environments with the focus of delivering high quality results. Ability to learn from others and engage in meaningful dialogue. </p>
+      </div>
+      <div class="flex justify-center gap-8 text-gray-200">
+        <a href="https://www.linkedin.com/in/felixzarate/" target="_blank"><Icon class="w-10 cursor-pointer" name="ion:logo-linkedin"/></a>
+        <a href="https://github.com/felixzrte" target="_blank"><Icon class="w-10 cursor-pointer" name="ion:logo-github"/></a>
+      </div>
+    </section>
+    <section class="py-20"> 
+      <h2 class="font-fira font-medium text-3xl text-gray-300 text-center pb-12">Tech I Use</h2> 
+      <div class="mx-auto flex flex-wrap justify-center gap-10">
+        <div class="w-20 text-center">
+          <Icon class="text-yellow-300" name="vscode-icons:file-type-js-official"/>
+          <h3 class="font-fira text-gray-300 text-sm pt-2">Javascript</h3>
+        </div>        
+        <div class="w-20 text-center">
+          <Icon class="text-orange-400" name="vscode-icons:file-type-html"/>
+          <h3 class="font-fira text-gray-300 text-sm pt-2">HTML5</h3>
+        </div>      
+        <div class="w-20 text-center">
+          <Icon class="text-blue-400" name="vscode-icons:file-type-css"/>
+          <h3 class="font-fira text-gray-300 text-sm pt-2">CSS3</h3>
+        </div>       
+        <div class="w-20 text-center">
+          <Icon class="text-yellow-300" name="vscode-icons:file-type-reactjs"/>
+          <h3 class="font-fira text-gray-300 text-sm pt-2">React</h3>
+        </div>       
+        <div class="w-20 text-center">
+          <Icon class="text-yellow-300" name="vscode-icons:file-type-tailwind"/>
+          <h3 class="font-fira text-gray-300 text-sm pt-2">Tailwind</h3>
+        </div>       
+        <div class="w-20 text-center">
+          <Icon class="text-yellow-300" name="vscode-icons:file-type-mysql"/>
+          <h3 class="font-fira text-gray-300 text-sm pt-2">MySQL</h3>
+        </div>       
+        <div class="w-20 text-center">
+          <Icon class="text-yellow-300" name="vscode-icons:file-type-node"/>
+          <h3 class="font-fira text-gray-300 text-sm pt-2">Node</h3>
+        </div>       
+        <div class="w-20 text-center">
+          <Icon class="text-yellow-300" name="vscode-icons:file-type-astro"/>
+          <h3 class="font-fira text-gray-300 text-sm pt-2">Astro</h3>
+        </div>       
+        <div class="w-20 text-center">
+          <Icon class="text-yellow-300" name="vscode-icons:file-type-typescript-official"/>
+          <h3 class="font-fira text-gray-300 text-sm pt-2">Typescript</h3>
+        </div>   
+      </div>
+    </section>
   </main>
 </Layout> 

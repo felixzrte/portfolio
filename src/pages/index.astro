@@ -1,20 +1,21 @@
 ---
+import Card from '../components/Card.astro';
 import Layout from '../layouts/Layout.astro';
 import {Icon} from 'astro-icon'
 ---
 
-<Layout title="felixz - portfolio">
+<Layout title="Felix Zarate | Software Engineer">
   <main>
     <section>
       <div class="text-center md:mt-18 lg:mt-18 p-10">
         <p class="font-fira font-light text-sm md:text-base text-lightGreen pb-4">Hi, my name is</p>
         <h2 class="font-fira font-medium text-white text-4xl lg:text-6xl pb-2">Felix Zarate</h2>
         <h3 class="font-fira font-light text-gray-300 text-md md:text-xl py-2">Software Engineer</h3>
-        <p class="font-fira text-sm md:text-base lg:text-lg text-gray-400 py-5 leading-8 max-w-lg mx-auto">Software engineer with hands-on-experience creating web and mobile applications. Ability to adapt in self-starting and collaborative environments with the focus of delivering high quality results. Ability to learn from others and engage in meaningful dialogue. </p>
+        <p class="font-fira text-sm md:text-base lg:text-lg text-gray-400 py-5 leading-8 max-w-lg md:mx-auto lg:mx-auto">Software engineer with hands-on-experience creating web and mobile applications. Ability to adapt in self-starting and collaborative environments with the focus of delivering high quality results. Ability to learn from others and engage in meaningful dialogue. </p>
       </div>
-      <div class="flex justify-center gap-8 text-gray-200">
-        <a href="https://www.linkedin.com/in/felixzarate/" target="_blank"><Icon class="w-10 cursor-pointer" name="ion:logo-linkedin"/></a>
-        <a href="https://github.com/felixzrte" target="_blank"><Icon class="w-10 cursor-pointer" name="ion:logo-github"/></a>
+      <div class="flex justify-center gap-8">
+        <a href="https://www.linkedin.com/in/felixzarate/" target="_blank"><Icon class=" text-gray-400 hover:text-gray-600 w-10 cursor-pointer" name="ion:logo-linkedin"/></a>
+        <a href="https://github.com/felixzrte" target="_blank"><Icon class=" text-gray-400 hover:text-gray-600 w-10 cursor-pointer" name="ion:logo-github"/></a>
       </div>
     </section>
     <section class="py-20"> 
@@ -58,5 +59,13 @@ import {Icon} from 'astro-icon'
         </div>   
       </div>
     </section>
+    <section class="py-24">
+      <h2 class="font-fira font-medium text-3xl text-gray-300 text-center pb-12">My Projects</h2> 
+      <div class="items-center justify-center flex flex-wrap mx-auto text-center">
+        <Card title="Multicultural Council App" subhead="University Project" desc="Test" link="https://www.youtube.com/watch?v=GJ5GAmRI_zk" link2="https://github.com/felixzrte/Multicultural-App-Backend" image="/mccapp.png"/>
+        <Card title="Northern York County EMA" subhead="Internship Project" image="/nema.png"/>
+        <Card title="My Portfolio" subhead="Personal Project" image="/fz.png"/>
+      </div>
+    </section> 
   </main>
 </Layout> 

@@ -9,8 +9,10 @@ module.exports = {
       colors: {
         'darkGray': '#2C2C3C',
         'lightGray': '#7C808D',
+        'darkerGray': '#2B2C41',
         'lightGreen': '#70D4BE',
         'green': '#0AA484',
+        'hoverGreen': '#098F74',
       }
     }, 
   },
